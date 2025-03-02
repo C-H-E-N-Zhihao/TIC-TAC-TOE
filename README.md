@@ -1,7 +1,7 @@
 # Tic-Tac-Toe Variants
 
 ## Introduction
-This project is a Python implementation of Tic-Tac-Toe and its various gameplay variants. It was developed as part of a group project, starting from an incomplete program provided by instructors. The goal was to create a functional Tic-Tac-Toe game playable in both terminal and graphical interfaces using the `pygame` module.
+This project is a Python implementation of Tic-Tac-Toe and its various gameplay variants. It was developed as part of a group project, starting from an incomplete program provided by instructors. The goal was to create a functional Tic-Tac-Toe game playable in both terminal and graphical interfaces using the `pygame` module. This is a two-player game, and there is no AI opponent available.
 
 ## Features
 - **Standard Tic-Tac-Toe**: Classic three-in-a-row win condition.
@@ -29,7 +29,10 @@ python main_txt.py  # Terminal version
 python main_gui.py  # Pygame version
 ```
 
-At the start, players can select which variant to play using interactive input prompts.
+At the start, players can select which variant to play and the board size using interactive input prompts.
+
+- **In `main_txt.py`**: Players place pieces by typing `x y`, where `x` and `y` are within the range `[0, board_size]`. `x` represents the position on the x-axis, and `y` represents the position on the y-axis.
+- **In `main_gui.py`**: Players place pieces by clicking directly on the corresponding position on the board.
 
 ## Code Structure
 - **`main_txt.py`**: Terminal-based version of the game.
