@@ -56,8 +56,5 @@ At the start, players can select which variant to play and the board size using 
 - Implement AI for single-player mode.
 - Add an online multiplayer mode.
 
-## References
-- [Tic-Tac-Toe implementation tutorial](https://youtu.be/Al917szWQXA)
-
 ## Authors
 - Zhihao Chen & Pengcheng Chen
